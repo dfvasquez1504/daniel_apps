@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
+st.title("Aplicaciones de Daniel.")
 
 with st.sidebar:
   st.subheader("Aplicaciones con Inteligencia Artificial.")
@@ -18,12 +18,12 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Conversión de texto a voz")
- image = Image.open('txt_to_audio2.png')
+ st.subheader("Intro 1ra App")
+ image = Image.open('Marvel.jpg')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
- url = "https://imultimod.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write("En la siguiente enlace encontraremos la primera app de Daniel") 
+ url = "https://intro1.streamlit.app//"
+ st.write(f"Mi primera app: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
  image = Image.open('txt_to_audio.png')
