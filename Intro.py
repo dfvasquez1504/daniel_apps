@@ -47,6 +47,13 @@ with col2:
  url = "https://voztexto.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
 
+  st.subheader("La Luciernaga y el Sapo")
+ image = Image.open('Traductor.png')
+ st.image(image, width=200)
+ st.write("En la siguiente veremos una aplicación que convierte el texto a voz.") 
+ url = "https://texto-vozdaniel.streamlit.app/"
+ st.write(f"Texto a Voz: [Enlace]({url})")
+
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')
  st.image(image, width=190)
