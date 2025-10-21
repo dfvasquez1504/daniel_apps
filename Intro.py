@@ -61,12 +61,12 @@ with col2:
  url = "https://texto-vozdaniel.streamlit.app/"
  st.write(f"Texto a Voz: [Enlace]({url})")
 
- st.subheader("Análisis de Datos")
- image = Image.open('data_analisis.png')
+ st.subheader("Reconocimiento de Texto (Estado)")
+ image = Image.open('Estados.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace veremos como se pueden analizar datos usando agentes.") 
- url = "https://asistpy-csv.streamlit.app/"
- st.write(f"Datos: [Enlace]({url})")
+ st.write("En la siguiente enlace veremos como se pueden analizar tu estado de animo con un texto.") 
+ url = "https://txt-2-daniel.streamlit.app/"
+ st.write(f"Enlace: [Enlace]({url})")
 
  st.subheader("Trasnscriptor Audio y Video")
  image = Image.open('OIG3.jpg')
