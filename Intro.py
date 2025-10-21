@@ -39,12 +39,12 @@ with col1:
  url = "https://ocr0-audioo.streamlit.app/"
  st.write(f"App: [Enlace]({url})")
 
- st.subheader("Entrenando Modelos")
- image = Image.open('OIG5.jpg')
+ st.subheader("Analizador de ChatPDF")
+ image = Image.open('AgentePDF.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ url = "https://chatpdf-daniel.streamlit.app/"
+ st.write(f"Chat: [Enlace]({url})")
 
 with col2: 
  st.subheader("Conversión de voz a texto (Traductor)")
