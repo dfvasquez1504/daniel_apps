@@ -99,7 +99,7 @@ with col3:
  st.write(f"App: [Enlace]({url})")
 
  st.subheader("Analizador de Imagenes")
- image = Image.open("Visualizador.png')
+ image = Image.open("Visualizador.png")
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de analisis y respuesta en base a la imagen.") 
  url = "https://visiondaniel.streamlit.app/"
