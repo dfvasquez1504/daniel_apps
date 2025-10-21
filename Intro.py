@@ -32,6 +32,13 @@ with col1:
  url = "https://reconocimiento.streamlit.app/"
  st.write(f"App: [Enlace]({url})")
 
+ st.subheader("Reconocimiento de Caracteres a Audio") 
+ image = Image.open('Audifonos.png')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos como se detectan caracteres de una imagen y escucharlo .") 
+ url = "https://ocr0-audioo.streamlit.app/"
+ st.write(f"App: [Enlace]({url})")
+
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
  st.image(image, width=200)
