@@ -46,8 +46,8 @@ with col2:
  st.write("En la siguiente veremos una aplicación que se usa como traductor.") 
  url = "https://voztexto.streamlit.app/"
  st.write(f"Voz a texto: [Enlace]({url})")
-
-  st.subheader("La Luciernaga y el Sapo")
+  
+ st.subheader("La Luciernaga y el Sapo")
  image = Image.open('Traductor.png')
  st.image(image, width=200)
  st.write("En la siguiente veremos una aplicación que convierte el texto a voz.") 
