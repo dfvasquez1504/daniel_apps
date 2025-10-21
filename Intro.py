@@ -77,12 +77,12 @@ with col2:
 
 
 with col3: 
- st.subheader("Generación en Contexto")
- image = Image.open('Chat_pdf.png')
+ st.subheader("Analizador de Textos")
+ image = Image.open('Analizador.png')
  st.image(image, width=190)
- st.write("En la siguiente veremos una aplicación que usa RAG a partir de un documento (PDF).") 
- url = "https://chatpdf-cc.streamlit.app/"
- st.write(f"RAG: [Enlace]({url})")
+ st.write("En la siguiente veremos una aplicación que analiza textos.") 
+ url = "https://texto-anadaniel.streamlit.app/"
+ st.write(f"Enlace: [Enlace]({url})")
 
  st.subheader("Análisis de Imagen")
  image = Image.open('OIG4.jpg')
