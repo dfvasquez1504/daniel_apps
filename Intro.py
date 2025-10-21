@@ -25,12 +25,12 @@ with col1:
  url = "https://intro1.streamlit.app//"
  st.write(f"Mi primera app: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
+ st.subheader("Reconocimiento de Caracteres")
+ image = Image.open('Robot.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://xn3pg24ztuv6fdiqon8qn3.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("En la siguiente enlace veremos como se detectan caracteres de una imagen.") 
+ url = "https://reconocimiento.streamlit.app/"
+ st.write(f"App: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
@@ -48,7 +48,7 @@ with col2:
  st.write(f"Voz a texto: [Enlace]({url})")
   
  st.subheader("La Luciernaga y el Sapo")
- image = Image.open('Traductor.png')
+ image = Image.open('Princesa.jpg')
  st.image(image, width=200)
  st.write("En la siguiente veremos una aplicación que convierte el texto a voz.") 
  url = "https://texto-vozdaniel.streamlit.app/"
