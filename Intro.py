@@ -91,11 +91,11 @@ with col3:
  url = "https://reconocimientoy.streamlit.app/"
  st.write(f"Reconocimiento: [Enlace]({url})")
  
- st.subheader("Sistema Ciberfísico")
- image = Image.open('OIG6.jpg')
+ st.subheader("Reconocimiento de Gestos")
+ image = Image.open('Gestos.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos la capacidad de interacción con el mundo físico.") 
- url = "https://vision2-gpt4o.streamlit.app/"
- st.write(f"Vision: [Enlace]({url})")
+ st.write("En la siguiente enlace veremos la capacidad de reconocimiento de gestos a través de una foto.") 
+ url = "https://reco-gestos.streamlit.app/"
+ st.write(f"App: [Enlace]({url})")
 
 
