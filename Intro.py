@@ -88,7 +88,7 @@ with col3:
  image = Image.open('Reconocimiento.jpg')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos la capacidad de análisis en los objetos en las imagenes.") 
- url = "https://reconocimientoy.streamlit.app/
+ url = "https://reconocimientoy.streamlit.app/"
  st.write(f"Reconocimiento: [Enlace]({url})")
  
  st.subheader("Sistema Ciberfísico")
