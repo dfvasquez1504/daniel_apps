@@ -42,9 +42,16 @@ with col1:
  st.subheader("Analizador de ChatPDF")
  image = Image.open('AgentePDF.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como puedes usar tu modelo entrenado.") 
+ st.write("En la siguiente enlace veremos como puedes analizar texto en PDF.") 
  url = "https://chatpdf-daniel.streamlit.app/"
  st.write(f"Chat: [Enlace]({url})")
+
+ st.subheader("Tablero Daniel")
+ image = Image.open('Tablero.png')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos como puedes usar mi tablero :).") 
+ url = "https://tablerodaniel.streamlit.app/"
+ st.write(f"Tablero: [Enlace]({url})")
 
 with col2: 
  st.subheader("Conversión de voz a texto (Traductor)")
