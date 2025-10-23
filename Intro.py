@@ -111,3 +111,10 @@ with col3:
  st.write("En la siguiente enlace veremos la capacidad de analisis y respuesta en base a la imagen.") 
  url = "https://visiondaniel.streamlit.app/"
  st.write(f"App: [Enlace]({url})")
+
+ st.subheader("Lector de Sensor")
+ image = Image.open("Sensor.png")
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos como leer a través de un sensor medidas en Streamlit") 
+ url = "https://sensormqttdaniel.streamlit.app/"
+ st.write(f"Lector: [Enlace]({url})")
