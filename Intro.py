@@ -86,7 +86,7 @@ with col2:
  image = Image.open('Tablero2.png')
  st.image(image, width=200)
  st.write("En la siguiente enlace veremos como funciona un tablero inteligente.") 
- url = "https://sendmqttdaniel.streamlit.app/"
+ url = "https://tableroprofe.streamlit.app/"
  st.write(f"App: [Enlace]({url})")
 
 
