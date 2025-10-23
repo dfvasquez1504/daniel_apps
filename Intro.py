@@ -75,12 +75,12 @@ with col2:
  url = "https://txt-2-daniel.streamlit.app/"
  st.write(f"Enlace: [Enlace]({url})")
 
- st.subheader("Trasnscriptor Audio y Video")
- image = Image.open('OIG3.jpg')
+ st.subheader("MQTT Control")
+ image = Image.open('MQTT.png')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como realizamos transcripciones de audio/video.") 
- url = "https://transcript-whisper.streamlit.app/"
- st.write(f"Transcriptor: [Enlace]({url})")
+ st.write("En la siguiente enlace veremos como desde stremanlit puedes controlar un MQTT.") 
+ url = "https://sendmqttdaniel.streamlit.app/"
+ st.write(f"Control: [Enlace]({url})")
 
 
 with col3: 
