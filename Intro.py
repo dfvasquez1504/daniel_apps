@@ -3,11 +3,10 @@ from PIL import Image
 st.title("Aplicaciones de Daniel.")
 
 with st.sidebar:
-  st.subheader("Aplicaciones con Inteligencia Artificial.")
+  st.subheader("Aplicaciones con Inteligencia Artificial de Daniel.")
   parrafo = (
-    "La inteligencia artificial permite mejorar la toma de decisiones con el uso de datos, "
-    "automatizar tareas rutinarias y proporcionar análisis avanzados en tiempo real, lo que "
-    "resulta en una mayor eficiencia y precisión en diversos campos."
+    "En esta pagina web, veras la apps creadas por el profe pero modificadas por Daniel Vásquez :) "
+
   )
   st.write(parrafo)
 
