@@ -82,6 +82,13 @@ with col2:
  url = "https://sendmqttdaniel.streamlit.app/"
  st.write(f"Control: [Enlace]({url})")
 
+ st.subheader("Tablero Profe")
+ image = Image.open('Tablero2.png')
+ st.image(image, width=200)
+ st.write("En la siguiente enlace veremos como funciona un tablero inteligente.") 
+ url = "https://sendmqttdaniel.streamlit.app/"
+ st.write(f"App: [Enlace]({url})")
+
 
 with col3: 
  st.subheader("Analizador de Textos")
